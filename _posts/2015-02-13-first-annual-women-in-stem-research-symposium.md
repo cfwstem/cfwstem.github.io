@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Annual Women in STEM Research Symposium
-date: {}
+date: {2015-02-13}
 categories: symposium
 tags: symposium
 published: true
@@ -16,28 +16,27 @@ The symposium is a FREE, full day professional conference with undergraduate and
 
 ## Registration
 
-Men and women are invited to attend! Female undergraduate and graduate student researchers are invited to submit an abstract; remember, space is limited! If you would like to volunteer to help out at the conference OR would like to host a table at the Expo, please use the same registration link above or contact cfwstem@utk.edu.
+Men and women are invited to attend! Female undergraduate and graduate student researchers are invited to submit an abstract; remember, space is limited! If you would like to volunteer to help out at the conference OR would like to host a table at the Expo, please use the same registration link above or contact [cfwstem@utk.edu](mailto:cfwstem@utk.edu).
 
 Based on the results of our faculty judges, the best poster and best talk will receive a FREE PARKING PASS!
 
 Please see below for a more detailed schedule of the day’s events and the call for abstracts. For reminders and updates, follow the [CFW STEM Committee on Facebook](http://www.facebook.com/utkcfwstem) or Twitter: [@utkcfwstem](https://twitter.com/utkcfwstem)!
 
 ## Schedule
-|---
-|:-|:-
-| 8:00 a.m.     |  Registration, Coffee & Networking, Poster Session A Setup 
-| 9:30 a.m.     |  Welcoming Remarks                                         
-| 10:00 a.m.    | Oral & Poster Session A                                    
-|---
-|:-|:-
-| 11:30 a.m.    |  Lunch break, Poster Session B Setup                       
-|---
-|:-|:-
-| 12:30 p.m.    | Plenary Speaker: Dr. Claudia Rawn                          
-| 1:30 p.m.     | Oral & Poster Session B                                    
-| 3:00 p.m.     | STEM Faculty & Staff Q&A Panel                             
-| 4:30 p.m.     | Award Ceremony & Closing Remarks                           
-|---
+
+| Time | Details |
+|:--------------|:----------------------------------------------------------|
+| 8:00 a.m.     |  Registration, Coffee & Networking, Poster Session A Setup| 
+| 9:30 a.m.     |  Welcoming Remarks                                        |
+| 10:00 a.m.    | Oral & Poster Session A                                   |
+|----
+| **11:30 a.m.**    |  **Lunch break, Poster Session B Setup**                    | 
+|----
+| 12:30 p.m.    | Plenary Speaker: Dr. Claudia Rawn                         | 
+| 1:30 p.m.     | Oral & Poster Session B                                   |
+| 3:00 p.m.     | STEM Faculty & Staff Q&A Panel                            |
+| 4:30 p.m.     | Award Ceremony & Closing Remarks                          |
+|====
 
 ## Call for Abstracts
 
