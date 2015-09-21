@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #111;
+  color: #58595B;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
 
@@ -60,16 +60,19 @@ li > ol {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
+.post-title {
+  color: #754A7E; }
+
 /**
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #FF8200;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #754A7E; }
   a:hover {
-    color: #111;
+    color: #58595B;
     text-decoration: underline; }
 
 /**
@@ -166,7 +169,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #58595B;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
