@@ -23,21 +23,21 @@ Based on the results of our faculty judges, the best poster and best talk will r
 Please see below for a more detailed schedule of the day’s events and the call for abstracts. For reminders and updates, follow the [CFW STEM Committee on Facebook](http://www.facebook.com/utkcfwstem) or Twitter: [@utkcfwstem](https://twitter.com/utkcfwstem)!
 
 ## Schedule
-|---------------+------------------------------------------------------------|
-|:--------------|:-----------------------------------------------------------|
-| 8:00 a.m.     |  Registration, Coffee & Networking, Poster Session A Setup |
-| 9:30 a.m.     |  Welcoming Remarks                                         |
-| 10:00 a.m.    | Oral & Poster Session A                                    |
-|---------------+------------------------------------------------------------|
-|:--------------|:-----------------------------------------------------------|
-| 11:30 a.m.    |  Lunch break, Poster Session B Setup                       |
-|---------------+------------------------------------------------------------|
-|:--------------|:-----------------------------------------------------------|
-| 12:30 p.m.    | Plenary Speaker: Dr. Claudia Rawn                          |
-| 1:30 p.m.     | Oral & Poster Session B                                    |
-| 3:00 p.m.     | STEM Faculty & Staff Q&A Panel                             |
-| 4:30 p.m.     | Award Ceremony & Closing Remarks                           |
-|---------------+------------------------------------------------------------|
+|---
+|:-|:-
+| 8:00 a.m.     |  Registration, Coffee & Networking, Poster Session A Setup 
+| 9:30 a.m.     |  Welcoming Remarks                                         
+| 10:00 a.m.    | Oral & Poster Session A                                    
+|---
+|:-|:-
+| 11:30 a.m.    |  Lunch break, Poster Session B Setup                       
+|---
+|:-|:-
+| 12:30 p.m.    | Plenary Speaker: Dr. Claudia Rawn                          
+| 1:30 p.m.     | Oral & Poster Session B                                    
+| 3:00 p.m.     | STEM Faculty & Staff Q&A Panel                             
+| 4:30 p.m.     | Award Ceremony & Closing Remarks                           
+|---
 
 ## Call for Abstracts
 
