@@ -5,14 +5,16 @@ date: {2015-02-13}
 categories: symposium
 tags: symposium
 published: true
+excerpt_separator: <!--more-->
 ---
-
 
 ![_](http://cfw.utk.edu/wp-content/uploads/sites/17/2015/02/stem-flyer.jpg)
 
 ## Conference Description
 
 The symposium is a FREE, full day professional conference with undergraduate and graduate poster & oral sessions, a plenary presentation given by Dr. Claudia Rawn (Director, UTK Center for Materials Processing), a question & answer panel of STEM faculty & staff from the university, Oak Ridge National Lab, and local industry, AND a STEM Student Org Expo!
+
+<!--more-->
 
 ## Registration
 
@@ -44,11 +46,11 @@ ABSTRACT DEADLINE EXTENDED! Poster and oral abstracts now due FRIDAY, APRIL 3RD 
 
 ## Poster Sessions
 
-### Session Description: 
+### Session Description
 
 Poster sessions will allow for the informal discussion of scholarly research being done by undergraduate and graduate women in science, technology, engineering and math fields from the University of Tennessee. Posters will be assigned to one of two 90-minute poster sessions (Session A – morning, Session B – afternoon) based on department (field) and specific research area.
 
-### Submission Format: 
+### Submission Format
 
 Poster session abstracts are limited to the following:
 
@@ -60,7 +62,7 @@ Methodology, experimental design, instrumentation, and/or techniques used to col
 Results, discussion, and/or conclusions
 Note: Once you have submitted your abstract, you may not edit or resubmit. Only one abstract may be submitted per student.
 
-### Selection Criteria: 
+### Selection Criteria
 
 In the event that more students submit abstracts than can be accommodated in the University Center space, abstracts will be evaluated based on the following criteria:
 
@@ -115,9 +117,13 @@ In the event that more students submit abstracts than can be accommodated during
 Presentations should be no more than 15 minutes in length and there will be 5 minutes for discussion and changeover to the next speaker. Please be considerate of other speakers and the audience by staying within your allotted time. Session chairs will help you hold to the allotted time.
 
 Electronic files must be prepared using the formats listed below:
+
 - Operating System: Media should be PC-formatted or Mac OS X
 - Plug-Ins: Quicktime 7, Windows Media Player
 
-Each session room is equipped with a Windows PC and a Mac connection capability, a laptop, and a LCD projector. Please bring your presentation on a flash drive or your computer with the file saved to the desktop for quick access. A local monitor is also provided and will mirror what the audience sees (Presenter View is not supported). Bring at least two copies of your presentation to the session in case there is a problem with one of the files.
+Each session room is equipped with a Windows PC and a Mac connection capability, a laptop, and a LCD projector. Please bring:
+
+- your presentation on a flash drive or your computer with the file saved to the desktop for quick access. A local monitor is also provided and will mirror what the audience sees (Presenter View is not supported). 
+- at least two copies of your presentation to the session in case there is a problem with one of the files.
 
 Speakers should report to University Center Room 225 or 226 at least 10 minutes prior to the session start time based on the information provided to you when you check in at the Registration table on April 18th.

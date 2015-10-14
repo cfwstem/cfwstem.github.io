@@ -40,7 +40,7 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+img:not(.photoimg) {
     max-width: 100%;
     vertical-align: middle;
 }

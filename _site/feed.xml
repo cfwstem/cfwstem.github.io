@@ -2,41 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CFW STEM Committee</title>
-    <description>Focusing specifically on the status and representation of women in science,  technology, engineering and math fields at the University of Tennessee
+    <description>Focusing specifically on the status and representation of women in science,  technology, engineering and math fields at Tennessee
 </description>
     <link>http://cfwstem.github.io/</link>
     <atom:link href="http://cfwstem.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Sep 2015 02:09:57 +0000</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2015 02:09:57 +0000</lastBuildDate>
+    <pubDate>Wed, 14 Oct 2015 21:45:33 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Oct 2015 21:45:33 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 20 Sep 2015 20:29:04 +0000</pubDate>
-        <link>http://cfwstem.github.io/jekyll/update/2015/09/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://cfwstem.github.io/jekyll/update/2015/09/20/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
       <item>
         <title>First Annual Women in STEM Research Symposium</title>
@@ -45,6 +17,8 @@
 &lt;h2 id=&quot;conference-description&quot;&gt;Conference Description&lt;/h2&gt;
 
 &lt;p&gt;The symposium is a FREE, full day professional conference with undergraduate and graduate poster &amp;amp; oral sessions, a plenary presentation given by Dr. Claudia Rawn (Director, UTK Center for Materials Processing), a question &amp;amp; answer panel of STEM faculty &amp;amp; staff from the university, Oak Ridge National Lab, and local industry, AND a STEM Student Org Expo!&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;h2 id=&quot;registration&quot;&gt;Registration&lt;/h2&gt;
 
@@ -109,11 +83,11 @@
 
 &lt;h2 id=&quot;poster-sessions&quot;&gt;Poster Sessions&lt;/h2&gt;
 
-&lt;h3 id=&quot;session-description&quot;&gt;Session Description:&lt;/h3&gt;
+&lt;h3 id=&quot;session-description&quot;&gt;Session Description&lt;/h3&gt;
 
 &lt;p&gt;Poster sessions will allow for the informal discussion of scholarly research being done by undergraduate and graduate women in science, technology, engineering and math fields from the University of Tennessee. Posters will be assigned to one of two 90-minute poster sessions (Session A – morning, Session B – afternoon) based on department (field) and specific research area.&lt;/p&gt;
 
-&lt;h3 id=&quot;submission-format&quot;&gt;Submission Format:&lt;/h3&gt;
+&lt;h3 id=&quot;submission-format&quot;&gt;Submission Format&lt;/h3&gt;
 
 &lt;p&gt;Poster session abstracts are limited to the following:&lt;/p&gt;
 
@@ -125,7 +99,7 @@ Methodology, experimental design, instrumentation, and/or techniques used to col
 Results, discussion, and/or conclusions
 Note: Once you have submitted your abstract, you may not edit or resubmit. Only one abstract may be submitted per student.&lt;/p&gt;
 
-&lt;h3 id=&quot;selection-criteria&quot;&gt;Selection Criteria:&lt;/h3&gt;
+&lt;h3 id=&quot;selection-criteria&quot;&gt;Selection Criteria&lt;/h3&gt;
 
 &lt;p&gt;In the event that more students submit abstracts than can be accommodated in the University Center space, abstracts will be evaluated based on the following criteria:&lt;/p&gt;
 
@@ -183,11 +157,19 @@ Results, discussion, and/or conclusions
 
 &lt;p&gt;Presentations should be no more than 15 minutes in length and there will be 5 minutes for discussion and changeover to the next speaker. Please be considerate of other speakers and the audience by staying within your allotted time. Session chairs will help you hold to the allotted time.&lt;/p&gt;
 
-&lt;p&gt;Electronic files must be prepared using the formats listed below:
-- Operating System: Media should be PC-formatted or Mac OS X
-- Plug-Ins: Quicktime 7, Windows Media Player&lt;/p&gt;
+&lt;p&gt;Electronic files must be prepared using the formats listed below:&lt;/p&gt;
 
-&lt;p&gt;Each session room is equipped with a Windows PC and a Mac connection capability, a laptop, and a LCD projector. Please bring your presentation on a flash drive or your computer with the file saved to the desktop for quick access. A local monitor is also provided and will mirror what the audience sees (Presenter View is not supported). Bring at least two copies of your presentation to the session in case there is a problem with one of the files.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Operating System: Media should be PC-formatted or Mac OS X&lt;/li&gt;
+  &lt;li&gt;Plug-Ins: Quicktime 7, Windows Media Player&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each session room is equipped with a Windows PC and a Mac connection capability, a laptop, and a LCD projector. Please bring:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;your presentation on a flash drive or your computer with the file saved to the desktop for quick access. A local monitor is also provided and will mirror what the audience sees (Presenter View is not supported). &lt;/li&gt;
+  &lt;li&gt;at least two copies of your presentation to the session in case there is a problem with one of the files.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Speakers should report to University Center Room 225 or 226 at least 10 minutes prior to the session start time based on the information provided to you when you check in at the Registration table on April 18th.&lt;/p&gt;
 </description>
