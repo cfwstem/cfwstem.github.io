@@ -83,7 +83,7 @@ The STEM Committee is actively looking to recruit new members into the general b
     <td class="email">aclay6</td>
   </tr>
   <tr>
-    <td class="photo"><img src="{{ "/assets/photos/board/BethanyAden.jpg" | prepend: site.baseurl }}" style="width: 50px; height: 50px; border-radius: 50%"></td>
+    <td class="photo"><a href="{{ "/board/bethanyaden" | prepend: site.baseurl }}"><img src="{{ "/assets/photos/board/BethanyAden.jpg" | prepend: site.baseurl }}" style="width: 50px; height: 50px; border-radius: 50%"></a></td>
     <td class="firstname">Bethany</td>
     <td class="lastname">Aden</td>
     <td class="department">Chemistry</td>
