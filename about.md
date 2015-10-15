@@ -3,8 +3,9 @@ layout: page
 title: Who Are We?
 permalink: /about/
 published: true
+list:
+ - yes
 custom_js:
- - list
  - about
 custom_css:
  - table
