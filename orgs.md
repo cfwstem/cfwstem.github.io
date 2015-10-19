@@ -2,8 +2,10 @@
 layout: page
 title: STEM Orgs
 permalink: /orgs/
+published: false
+list:
+ - yes
 custom_js:
- - list
  - orgs
 custom_css:
  - table

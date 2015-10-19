@@ -113,8 +113,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(1200px - (30px * 2));
+  max-width: calc(1200px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -141,9 +141,12 @@ pre {
   display: inline-block;
   width: 16px;
   height: 16px;
-  vertical-align: middle; }
-  .icon > svg path {
-    fill: #828282; }
+  vertical-align: middle;
+  /**
+     *     path {
+     *         fill: $grey-color;
+     *     }
+          */ }
 
 /**
  * Site header

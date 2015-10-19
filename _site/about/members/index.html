@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://cfwstem.github.io/">
+    <link rel="canonical" href="http://cfwstem.github.io/about/members/">
     <link rel="shortcut icon" type="image/png" href="/favicon-UT.png">
     <link rel="javascript" href="/js/list.js">
 </head>
@@ -19,9 +19,26 @@
   <!-- Custom JavaScript files set in YAML front matter -->
 <!-- <script async type="text/javascript" src=""></script> --->
 
+  
+ <script async src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+  
 
 
 
+  
+  <script async src='/js/members.js' type="text/javascript"></script>
+  
+  <script async src='/js/memberlist.js' type="text/javascript"></script>
+  
+
+
+
+  
+  <link rel="stylesheet" href="/css/table.css" media="screen" type="text/css">
+  
+  <link rel="stylesheet" href="/css/about.css" media="screen" type="text/css">
+  
 
 
 
@@ -78,38 +95,24 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 19, 2015</span>
+  <article class="post-content">
+    <h2 id="committee-members">Committee Members</h2>
 
-        <h2>
-          <a class="post-link" href="/welcome/2015/10/19/welcome-to-our-new-website.html">Welcome to our Website</a>
-        </h2>
-        <p>We are the Science, Technology, Engineering, and Math (STEM) Committee with the <a href="http://cfw.utk.edu/">Commission for Women</a> (CFW) at the University of Tennessee. 
-Established during the Fall semester of 2014, we planned and hosted the first-ever Women in STEM Research Symposium as our inaugural event. </p>
+<div id="users">
+  <input class="search" placeholder="Search" />
+  <button class="sort" data-sort="department">
+    Sort by department
+  </button>
+<table></table>
+</div>
 
-
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 13, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/symposium/2015/02/13/first-annual-women-in-stem-research-symposium.html">First Annual Women in STEM Research Symposium</a>
-        </h2>
-        <p>We are currently in the process of organizing the 2016 Women in STEM Research Symposium next Spring. Look below for details from this past Spring’s Symposium!</p>
-
-
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 

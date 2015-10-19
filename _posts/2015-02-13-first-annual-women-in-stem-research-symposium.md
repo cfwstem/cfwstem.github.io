@@ -8,7 +8,7 @@ published: true
 excerpt_separator: <!--more-->
 ---
 
-![_](http://cfw.utk.edu/wp-content/uploads/sites/17/2015/02/stem-flyer.jpg)
+We are currently in the process of organizing the 2016 Women in STEM Research Symposium next Spring. Look below for details from this past Spring's Symposium!
 
 ## Conference Description
 
