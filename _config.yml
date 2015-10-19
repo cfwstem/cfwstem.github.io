@@ -3,16 +3,17 @@
 title: CFW STEM Committee
 
 # Your email if you want it to be linked on the contact page
-email: your-email@domain.com
+email: cfwstem@utk.edu
 
 description: > # this means to ignore newlines until "baseurl:"
-  Focusing specifically on the status and representation of women in science, 
-  technology, engineering and math fields at the University of Tennessee
+  Group of highly motivated male, female, and ally students at the undergraduate and graduate levels
+  focused on improving the status and representation of women in science, technology, engineering, and math fields at the University of Tennessee.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cfwstem.github.io" # the base hostname & protocol for your site
 twitter_username: utkcfwstem
-github_username:  cfwstem
+#github_username:  cfwstem
+facebook_username: utkcfwstem
 
 # Build settings
 markdown: kramdown

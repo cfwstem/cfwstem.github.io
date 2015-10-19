@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #111;
+  color: #58595B;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
 
@@ -31,7 +31,7 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+img:not(.photoimg) {
   max-width: 100%;
   vertical-align: middle; }
 
@@ -60,16 +60,19 @@ li > ol {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
+.post-title {
+  color: #754A7E; }
+
 /**
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #FF8200;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #754A7E; }
   a:hover {
-    color: #111;
+    color: #58595B;
     text-decoration: underline; }
 
 /**
@@ -110,8 +113,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(1200px - (30px * 2));
+  max-width: calc(1200px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -138,18 +141,23 @@ pre {
   display: inline-block;
   width: 16px;
   height: 16px;
-  vertical-align: middle; }
-  .icon > svg path {
-    fill: #828282; }
+  vertical-align: middle;
+  /**
+     *     path {
+     *         fill: $grey-color;
+     *     }
+          */ }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 5px solid #57375e;
+  border-bottom: 1px solid #d3bcd8;
   min-height: 56px;
-  position: relative; }
+  position: fixed;
+  background: #fdfdfd;
+  width: 100%; }
 
 .site-title {
   font-size: 26px;
@@ -158,7 +166,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #57375e; }
 
 .site-nav {
   float: right;
@@ -166,7 +174,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #58595B;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -176,7 +184,7 @@ pre {
       top: 9px;
       right: 30px;
       background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
+      border: 1px solid #d3bcd8;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -191,7 +199,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #424242; }
+            fill: #57375e; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -281,6 +289,7 @@ pre {
  * Posts
  */
 .post-header {
+  margin-top: 60px;
   margin-bottom: 30px; }
 
 .post-title {

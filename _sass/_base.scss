@@ -40,7 +40,7 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+img:not(.photoimg) {
     max-width: 100%;
     vertical-align: middle;
 }
@@ -84,6 +84,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.post-title{
+    color: $brand-color-dark;
+}
 
 /**
  * Links
@@ -93,7 +96,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color-dark;
     }
 
     &:hover {
@@ -154,8 +157,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(1200px - (#{$spacing-unit} * 2));
+    max-width:         calc(1200px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -196,9 +199,10 @@ pre {
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
+/**
+   *     path {
+   *         fill: $grey-color;
+   *     }
+        */
     }
 }

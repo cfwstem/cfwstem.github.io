@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 2px black solid;
+                font: 12px sans-serif;
+            }
+
+            td {
+                border: 1px black solid;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <!-- <script src="d3.min.js?v=3.2.8"></script>-->
+        
+
+        <!-- help from
+        
+        http://bl.ocks.org/syntagmatic/3687826
+        http://stackoverflow.com/questions/23747945/how-to-add-header-row-to-d3-csv-generated-table
+        http://stackoverflow.com/questions/9268645/creating-a-table-linked-to-a-csv-file
+        https://vis4.net/blog/posts/making-html-tables-in-d3-doesnt-need-to-be-a-pain/
+        https://github.com/mbostock/d3/wiki/CSV
+        http://stackoverflow.com/questions/16102505/d3-js-how-to-apply-multiple-classes-when-using-a-function
+        -->
+        
+        
+       <!--orginated from
+
+        http://bl.ocks.org/ndarville/7075823
+        -->
+        <!----->
+        <script type="text/javascript"charset="utf-8">
+            d3.text("csv/data.csv", function(data) {
+                var rows = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .append("table");
+                    
+                 // headers
+                 
+                 container.append("thead").append("tr")
+                    .selectAll("th")
+                    .data(rows[0]) //grabs first row (which we know as header)
+                    .enter().append("th")
+                    .attr("class", function(d){
+                        return d; // return name as class name as well
+                    })
+                    .text(function(column) {
+                        return column; // return text in each element back as the header cell
+                    });
+                
+                // data
+                
+                container.append("tbody")
+                        .selectAll("tr")
+                        .data(rows.slice(1)).enter() // skip past the header
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; })
+                        .attr('class', function(d, i){ return rows[0][i]; });
+            });
+        </script>
+        
+        
+        <!---->
+        <!--
+        <script type="text/javascript"charset="utf-8">
+        
+        
+        // determine columns 
+        function returnColumns() {
+        d3.text("data.csv", function(data) {
+                var rows = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .append("table");
+                    
+                 // headers
+                 
+                 var columns1 = container.data(rows[0]).enter()
+        console.log(columns1);
+        return columns1
+        });
+        }
+        
+        // Get the data
+d3.csv("data.csv", function(error, data) {
+
+             
+// The table generation function
+function tabulate(data) {
+    var columns = ["car name",	"miles/gallon",	"cylinders",	"displacement",	"horsepower",	"weight",	"acceleration",	"model year",	"origin"]
+    //console.log(columns);
+    
+    var table = d3.select("body").append("table")
+            .attr("style", "margin-left: 250px"),
+        thead = table.append("thead"),
+        tbody = table.append("tbody");
+
+    // append the header row
+    thead.append("tr")
+        .selectAll("th")
+        .data(columns)
+        .enter()
+        .append("th")
+            .text(function(column) { return column; });
+
+    // create a row for each object in the data
+    var rows = tbody.selectAll("tr")
+        .data(data)
+        .enter()
+        .append("tr");
+
+    // create a cell in each row for each column
+    var cells = rows.selectAll("td")
+        .data(function(row) {
+            return columns.map(function(column) {
+                return {column: column, value: row[column]};
+            });
+        })
+        .enter()
+        .append("td")
+        .attr("class", function() {
+            return columns.map(function(column) {
+                return {column: column, value: columns[column]};
+            });
+        }) // sets the font style
+        .attr("style", "font-family: Courier") // sets the font style
+            .html(function(d) { return d.value; });
+    
+    return table;
+}
+
+// render the table
+ var peopleTable = tabulate(data);
+ 
+});
+
+        </script>
+        -->
+        <!--
+        <script type="text/javascript"charset="utf-8">
+            d3.text("data.csv", function(data) {
+                
+                // parse csv
+                
+                var dummyrows = d3.csv.parseRows(data);
+
+                var columns = dummyrows[0]
+
+                var rows = d3.csv.parse(data);
+
+                // create table
+                
+                var container = d3.select("body")
+                    .append("table"),
+                    
+                    thead = container.append("thead"),
+                    tbody = container.append("tbody");
+                    
+                    
+                 // header row
+                 
+                thead.append("tr")
+                    .selectAll("th")
+                    .data(columns) //grabs first row (which we know as header)
+                    .enter()
+                    .append("th")
+                    .attr("class", function(column){
+                        return column; // return name as class name as well
+                    })
+                    .text(function(column) {
+                        return column; // return text in each element back as the header cell
+                    });
+                
+                // data
+                
+                container.append("tbody")
+                        .selectAll("tr")
+                        .data(rows.slice(1)).enter() // skip past the header
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .attr("class", columns[function(){
+                            return columns.map(function(column){
+                                return{column: column};
+                            });
+                        }])
+                        .text(function(d) { return d; });
+            });
+        </script>
+        -->
+    </body>
+</html>
