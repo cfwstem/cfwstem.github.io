@@ -6,7 +6,7 @@
 <!-- <script async type="text/javascript" src="{{ js }}"></script> --->
 {% if page.list %}
   {% for yes in page.list %}
- <script async src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
   {% endfor %}
 {% endif %}
@@ -23,6 +23,12 @@
   {% endfor %}
 {% endif %}
 
+{% if page.custom_js %}
+  {% if page.custom_js contains "membersearch" %} <!-- h/t to http://wolfslittlestore.be/2013/10/jekyll-includes-tip-contains/ -->
+  <script src='/js/membersearch.js' type="text/javascript"></script>
+  <script type="text/javascript">LoadScript();</script>
+  {% endif %}
+{% endif %}
 
   <body>
 

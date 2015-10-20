@@ -5,8 +5,8 @@ published: true
 list:
  - yes
 custom_js:
- - members
  - memberlist
+ - membersearch
 custom_css:
  - table
  - about
@@ -15,8 +15,8 @@ custom_css:
 ## Committee Members
 
 <div id="users">
-  <input class="search" placeholder="Search" />
-  <button class="sort" data-sort="department">
+  <input class="search" placeholder="Search" onfocus="LoadScript();"/>
+  <button class="sort" data-sort="Department" >
     Sort by department
   </button>
 <table></table>
