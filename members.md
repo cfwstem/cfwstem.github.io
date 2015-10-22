@@ -4,9 +4,14 @@ permalink: /about/members/
 published: true
 list:
  - yes
+
+custom_csv:
+ - CFWMemberListFall2015
+
 custom_js:
  - memberlist
  - membersearch
+ 
 custom_css:
  - table
  - about

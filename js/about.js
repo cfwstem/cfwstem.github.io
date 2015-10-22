@@ -1,12 +1,7 @@
-// require(['domReady', 'list'], function(domReady, LIST) {
-//     domReady( function() {
-//         /* global List */
-//         List = LIST;
-//     })
-// })
-
-var options = {
-  valueNames: [ 'firstname', 'lastname', 'department', 'year', 'position', 'email' ]
-};
-
-var userList = new List('users', options);
+ var LoadScript = function() {
+           var options = {
+                valueNames: [ 'Name', 'Department', 'Position' ]
+                          };
+    /* global List */
+            var userList = new List('users', options);
+ }

@@ -1,0 +1,1 @@
+ var csvURL = '/csv/CFW_MemberList_Fall2015.csv';

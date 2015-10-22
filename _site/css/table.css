@@ -35,7 +35,7 @@ input:focus {
 }
 .sort:hover {
   text-decoration: none;
-  background-color: lighter(#FF8200, 20%);
+  background-color: lighter(#754A7E, 20%);
 }
 .sort:focus {
   outline:none;

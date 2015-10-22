@@ -5,8 +5,14 @@ permalink: /about/
 published: true
 list:
  - yes
+
+custom_csv:
+ - CFWExecListFall2015
+
 custom_js:
+ - memberlist
  - about
+ 
 custom_css:
  - table
  - about
@@ -25,12 +31,22 @@ The STEM Committee is actively looking to recruit new members into the general b
 ### Executive Board
 
 <div id="users">
+  <input class="search" placeholder="Search" onfocus="LoadScript();"/>
+  <button class="sort" data-sort="Department" >
+    Sort by department
+  </button>
+<table></table>
+</div>
+
+
+<!--
+<div id="users">
   <input class="search" placeholder="Search" />
   <button class="sort" data-sort="department">
     Sort by department
   </button>
   <table>
-    <!-- IMPORTANT, class="list" have to be at tbody -->
+    IMPORTANT, class="list" have to be at tbody
   <tr>
     <th class="photo"></th>
     <th class="firstname">First Name</th>
@@ -98,7 +114,7 @@ The STEM Committee is actively looking to recruit new members into the general b
   </tbody>
 </table>
 </div>
-
+-->
 
 ### Mission
 
@@ -127,9 +143,25 @@ The STEM Committee is actively looking to recruit new members into the general b
  - Campus or Community Involvement Opportunities
 
 
-#### Interested in learning more?
+<form style="border:0px solid #ccc; border-top-width: 1px; padding:10px;text-align:center;"            action="https://tinyletter.com/cfwstem" method="post"             target="popupwindow"             onsubmit="window.open('https://tinyletter.com/cfwstem', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            
+            <div class="ss-form-question errorbox-good" role="listitem">
+             <div dir="auto" class="ss-item ss-item-required ss-text">
+              <div class="ss-form-entry">
+                 <h4>Interested in learning more about events and issues concerning Women in STEM at the University of Tennessee?</h4>
+                 <p>Provide your email below for a curated newsletter sent to your inbox. You'll enjoy it. Really.</p>
+                 <p><input type="text" name="email" id="tlemail" placeholder="Your email address" 
+                 aria-required = "true" style = "margin-bottom:0px" required="" title="Must be a valid email address"/></p>
+                 <input type="hidden" value="1" name="embed"/>
+              </div>
+             </div>
+            </div>
+            
+         <button type="submit" name="submit" class="sort">Subscribe</button>
+         
+</form>
 
-Drop us a line, and we'll get back to you!
+
 
 <!---
 <form action="//formspree.io/apawlows@vols.utk.edu" method="POST">
@@ -148,7 +180,7 @@ Drop us a line, and we'll get back to you!
 	<button class="sort" type="submit">Submit</button>
 </form>
 -->
-
+<!--
 <form action="https://docs.google.com/forms/d/1EglVj2GAmKEIdY8wXtyEcye4Q_roDDDHYcyt5WS9bJo/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit="https://cfwstem-alexpawlowski.c9.io/about/">
 
  <div class="ss-form-question errorbox-good" role="listitem">
@@ -157,7 +189,7 @@ Drop us a line, and we'll get back to you!
         <label class="ss-q-item-label" for="entry_663398015"><div class="ss-q-title">Name
     <!---   <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
         <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
-        <div class="ss-q-help ss-secondary-text" dir="auto"> --->
+        <div class="ss-q-help ss-secondary-text" dir="auto"> ---
         </div></label>
         <input type="text" name="entry.663398015" value="" class="ss-q-short" id="entry_663398015" dir="auto" aria-label="Name  " aria-required="true" required="" title="" placeholder="Your name">
         <div class="error-message" id="183502191_errorMessage"></div>
@@ -170,7 +202,7 @@ Drop us a line, and we'll get back to you!
         <label class="ss-q-item-label" for="entry_1030701194"><div class="ss-q-title">Email
        <!--- <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
         <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
-        <div class="ss-q-help ss-secondary-text" dir="auto"> --->
+        <div class="ss-q-help ss-secondary-text" dir="auto"> ---
         </div></label>
         <input type="email" name="entry.1030701194" value="" class="ss-q-short" id="entry_1030701194" dir="auto" aria-label="Email  " aria-required="true" required="" title="Must be a valid email address" placeholder="Your email">
       </div>
@@ -188,8 +220,8 @@ Drop us a line, and we'll get back to you!
 </div>
 
 </form>
-
-<!---
+-->
+<!--
 <form method="post" action="//flipmail.co/api/MIWYmSBHTdxfi2JE1EPf">
     <input type="hidden" name="_subject" value="%name %email">
     <input type="hidden" name="_replyto" value="%email">

@@ -2,8 +2,10 @@
 	return window.location.origin?window.location.origin+'/':window.location.protocol+'/'+window.location.host+'/';
 }
           // https://cfwstem-alexpawlowski.c9.io
-          
-            d3.text(getRootUrl() + "/csv/CFW_MemberList_Fall2015.csv", function(data) {
+          /*global d3*/
+          /*global csvURL*/
+            //d3.text(getRootUrl() + "/csv/CFW_MemberList_Fall2015.csv", function(data) {
+            d3.text(getRootUrl() + csvURL, function(data) {
                 var rows = d3.csv.parseRows(data);
 
                 var container = d3.select("table") //d3.select("body")
@@ -33,6 +35,6 @@
                     .selectAll("td")
                         .data(function(d) { return d; }).enter()
                         .append("td")
-                        .text(function(d) { return d; })
+                        .html(function(d) { return d; })
                         .attr('class', function(d, i){ return rows[0][i].replace(/\s+/g, ''); });
             });

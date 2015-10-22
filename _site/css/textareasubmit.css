@@ -1,15 +1,23 @@
-.list {
+textarea {
   font-family:sans-serif;
+  border:solid 1px #754A7E;
+  border-radius: 5px;
+  padding:7px 14px;
+  margin-bottom:10px
 }
-td {
-  padding:10px; 
-  border:solid 0px #eee;
+textarea:focus {
+  outline:none;
+  border-color:#FF8200;
 }
-th {
-  padding:10px; 
-  border:solid 0.5px #fdfdfd;
-  background-color: #754A7E;
-  color: #fdfdfd;
+.error, .required {
+    border-color:rgb(196, 59, 29);
+}
+
+.photoimg {
+  max-width: null;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 input {
