@@ -21,7 +21,7 @@ custom_css:
 
 <div id="users">
   <input class="search" placeholder="Search" onfocus="LoadScript();"/>
-  <button class="sort" data-sort="Department" >
+  <button type = "button" class="sort" data-sort="Department" onclick="LoadScript();">
     Sort by department
   </button>
 <table></table>

@@ -27,13 +27,6 @@
 
 
 
-  
-    <script async src='/js/memberlist.js' type="text/javascript"></script>
-  
-    <script async src='/js/about.js' type="text/javascript"></script>
-  
-
-
 
   
     <link rel="stylesheet" href="/css/table.css" media="screen" type="text/css">
@@ -50,6 +43,18 @@
 
 
 
+  
+    <script async src='/js/memberlist.js' type="text/javascript"></script>
+  
+    <script async src='/js/about.js' type="text/javascript"></script>
+  
+
+
+
+  
+     <!-- h/t to http://wolfslittlestore.be/2013/10/jekyll-includes-tip-contains/ -->
+    <script src='/js/about.js' type="text/javascript"></script>
+    <script type="text/javascript">LoadScript();</script>
   
 
 
@@ -126,7 +131,7 @@ Comprised of undergraduate and graduate students, the STEM Committee also has an
 
 <div id="users">
   <input class="search" placeholder="Search" onfocus="LoadScript();" />
-  <button class="sort" data-sort="Department">
+  <button class="sort" data-sort="Department" onclick="LoadScript();">
     Sort by department
   </button>
 <table></table>

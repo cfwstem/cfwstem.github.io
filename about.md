@@ -32,7 +32,7 @@ The STEM Committee is actively looking to recruit new members into the general b
 
 <div id="users">
   <input class="search" placeholder="Search" onfocus="LoadScript();"/>
-  <button class="sort" data-sort="Department" >
+  <button class="sort" data-sort="Department" onclick="LoadScript();" >
     Sort by department
   </button>
 <table></table>
