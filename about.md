@@ -19,6 +19,7 @@ custom_css:
 
 
 
+
 The Commission for Women is an appointed body to advise the Chancellor on the planning, implementation, and evaluation of university programs, policies, and services designed to improve the status of women on the Knoxville campus of the University of Tennessee. You can learn more [about the Commission here](http://cfw.utk.edu/about/) 
 
 The STEM Committee is a special committee of the Commission that advises the commission on important issues related to the representation and opportunities of women in the sciences, technology, engineering, and math fields. 
@@ -66,8 +67,8 @@ The STEM Committee is actively looking to recruit new members into the general b
 
 <hr />
 
-{% include bios/MalloryLadd.md %}
-{% include bios/BethanyAden.md %}
+{% include /bios/MalloryLadd.md %}
+{% include /bios/BethanyAden.md %}
 
 <!--
 <div id="users">
