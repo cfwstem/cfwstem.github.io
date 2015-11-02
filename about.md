@@ -38,9 +38,36 @@ The STEM Committee is actively looking to recruit new members into the general b
 <table></table>
 </div>
 
+### Mission
+
+ - Create a line of communication between undergraduate and graduate students, faculty, and campus leadership to address women in STEM issues on campus
+ - Promote the recruitment and retainment of women in STEM fields at every level
+ - Bring recognition to the diverse research being performed by women at all levels in STEM here at UT
+ - Lead a positive discussion on campus and make a sustained effort to include a diverse audience to help raise awareness about the issues women face when pursuing careers in STEM and communicate how everyone can take action
+ - Offer a system of support and mentorship to women in STEM fields across campus
+ - Support and partner with existing STEM student organizations on campus
+ - Provide a forum for individuals from different scientific backgrounds to ally with one another for community engagement, academic support, and social activities while accumulating professional leadership experience
+
+### Goals for AY 2015-2016
+
+ - Host Annual Women in STEM Research Symposium
+ - Collect and analyze data on women in STEM here at UT
+ - Disseminate information on campus about women in STEM topical areas (see below)
+ - Create interdisciplinary mentoring program for undergraduate and graduate students at UT
+
+### Women in STEM Topical Areas
+
+ - Mentoring and Advising
+ - Bias and Discrimination
+ - Resource or Funding Gaps and Salary Negotiation
+ - Work-Life Balance and Family
+ - Choosing and Finding a Career in STEM
+ - Campus or Community Involvement Opportunities
+
+
 <img src="{{ "/assets/photos/board/MalloryLadd.jpg" | prepend: site.baseurl }}" style="align: center; width: 150px; height: 150px; border-radius: 50%">
 
-## Mallory Ladd, Chair <a id="malloryladd"></a>
+### Mallory Ladd, Chair <a id="malloryladd"></a>
 
 When I first got into science, and started hearing the conversation about how “it’s tougher for women in STEM fields”, I thought “No way! I’m in control of my own success, nothing and no one is holding me back. I can do anything the boys can do.” 
 
@@ -78,12 +105,9 @@ Website:
 
  - <http://www.malloryladd.com/>
 
-
-
-
 <img src="{{ "/assets/photos/board/BethanyAden.jpg" | prepend: site.baseurl }}" style="align: center; width: 150px; height: 150px; border-radius: 50%">
 
-## Bethany Aden <a id="bethanyaden"></a>
+### Bethany Aden <a id="bethanyaden"></a>
 
 I grew up in a small town (McKenzie, TN) where I always found math and science interesting. I had an anatomy torso doll, Dr. Aden lab coat, a microscope, and I loved collecting rocks. Not only did I find these subjects fascinating but they were also my best subjects in school. 
 
@@ -176,33 +200,6 @@ This is an important committee to me because I want to belong to a group that no
 </table>
 </div>
 -->
-
-### Mission
-
- - Create a line of communication between undergraduate and graduate students, faculty, and campus leadership to address women in STEM issues on campus
- - Promote the recruitment and retainment of women in STEM fields at every level
- - Bring recognition to the diverse research being performed by women at all levels in STEM here at UT
- - Lead a positive discussion on campus and make a sustained effort to include a diverse audience to help raise awareness about the issues women face when pursuing careers in STEM and communicate how everyone can take action
- - Offer a system of support and mentorship to women in STEM fields across campus
- - Support and partner with existing STEM student organizations on campus
- - Provide a forum for individuals from different scientific backgrounds to ally with one another for community engagement, academic support, and social activities while accumulating professional leadership experience
-
-### Goals for AY 2015-2016
-
- - Host Annual Women in STEM Research Symposium
- - Collect and analyze data on women in STEM here at UT
- - Disseminate information on campus about women in STEM topical areas (see below)
- - Create interdisciplinary mentoring program for undergraduate and graduate students at UT
-
-### Women in STEM Topical Areas
-
- - Mentoring and Advising
- - Bias and Discrimination
- - Resource or Funding Gaps and Salary Negotiation
- - Work-Life Balance and Family
- - Choosing and Finding a Career in STEM
- - Campus or Community Involvement Opportunities
-
 
 <form style="border:0px solid #ccc; border-top-width: 1px; padding:10px;text-align:center;"            action="https://tinyletter.com/cfwstem" method="post"             target="popupwindow"             onsubmit="window.open('https://tinyletter.com/cfwstem', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
             
