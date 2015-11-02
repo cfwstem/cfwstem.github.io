@@ -64,6 +64,8 @@ The STEM Committee is actively looking to recruit new members into the general b
  - Choosing and Finding a Career in STEM
  - Campus or Community Involvement Opportunities
 
+<hr />
+
 {% include bios/MalloryLadd.md %}
 {% include bios/BethanyAden.md %}
 
