@@ -1,22 +1,20 @@
 ---
 layout: page
-title: Who Are We?
+title: "Who Are We?"
 permalink: /about/
 published: true
-list:
- - yes
-
-custom_csv:
- - CFWExecListFall2015
-
-custom_js:
- - memberlist
- - about
- 
-custom_css:
- - table
- - about
+list: 
+  - "yes"
+custom_csv: 
+  - CFWExecListFall2015
+custom_js: 
+  - memberlist
+  - about
+custom_css: 
+  - table
+  - about
 ---
+
 
 
 The Commission for Women is an appointed body to advise the Chancellor on the planning, implementation, and evaluation of university programs, policies, and services designed to improve the status of women on the Knoxville campus of the University of Tennessee. You can learn more [about the Commission here](http://cfw.utk.edu/about/) 
@@ -37,6 +35,9 @@ The STEM Committee is actively looking to recruit new members into the general b
   </button>
 <table></table>
 </div>
+
+[Mallory Ladd]({{ "/board/malloryladd" | prepend: site.baseurl }} "Mallory Ladd")
+[Bethany Aden]({{ "/board/bethanyaden" | prepend: site.baseurl }} "Bethany Aden")
 
 
 <!--
