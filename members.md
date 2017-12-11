@@ -4,9 +4,14 @@ permalink: /about/members/
 published: true
 list:
  - yes
+
+custom_csv:
+ - CFWMemberListFall2015
+
 custom_js:
- - members
  - memberlist
+ - membersearch
+ 
 custom_css:
  - table
  - about
@@ -15,8 +20,8 @@ custom_css:
 ## Committee Members
 
 <div id="users">
-  <input class="search" placeholder="Search" />
-  <button class="sort" data-sort="department">
+  <input class="search" placeholder="Search" onfocus="LoadScript();"/>
+  <button type = "button" class="sort" data-sort="Department" onclick="LoadScript();">
     Sort by department
   </button>
 <table></table>

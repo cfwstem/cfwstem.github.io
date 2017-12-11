@@ -4,25 +4,44 @@
   {% include head.html %}
   <!-- Custom JavaScript files set in YAML front matter -->
 <!-- <script async type="text/javascript" src="{{ js }}"></script> --->
+<link rel="stylesheet" href="/css/textareasubmit.css" media="screen" type="text/css">
 {% if page.list %}
   {% for yes in page.list %}
- <script async src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
- <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+  {% endfor %}
+{% endif %}
+
+
+{% if page.custom_css %}
+  {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+  {% endfor %}
+{% endif %}
+
+<!--- Load js file that corresponds to the correct csv file --->
+{% if page.custom_csv %}
+  {% for csv_file in page.custom_csv %} 
+      <script src='/js/{{ csv_file }}.js' type="text/javascript"></script>
   {% endfor %}
 {% endif %}
 
 {% if page.custom_js %}
   {% for js_file in page.custom_js %}
-  <script async src='/js/{{ js_file }}.js' type="text/javascript"></script>
+    <script async src='/js/{{ js_file }}.js' type="text/javascript"></script>
   {% endfor %}
 {% endif %}
 
-{% if page.custom_css %}
-  {% for stylesheet in page.custom_css %}
-  <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
-  {% endfor %}
+{% if page.custom_js %}
+  {% if page.custom_js contains "membersearch" %} <!-- h/t to http://wolfslittlestore.be/2013/10/jekyll-includes-tip-contains/ -->
+    <script src='/js/membersearch.js' type="text/javascript"></script>
+    <script type="text/javascript">LoadScript();</script>
+  {% endif %}
+    {% if page.custom_js contains "about" %} <!-- h/t to http://wolfslittlestore.be/2013/10/jekyll-includes-tip-contains/ -->
+    <script src='/js/about.js' type="text/javascript"></script>
+    <script type="text/javascript">LoadScript();</script>
+  {% endif %}
 {% endif %}
-
 
   <body>
 

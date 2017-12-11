@@ -18,28 +18,44 @@
 
   <!-- Custom JavaScript files set in YAML front matter -->
 <!-- <script async type="text/javascript" src=""></script> --->
+<link rel="stylesheet" href="/css/textareasubmit.css" media="screen" type="text/css">
 
   
- <script async src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
- <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
-  
-
-
-
-  
-  <script async src='/js/members.js' type="text/javascript"></script>
-  
-  <script async src='/js/memberlist.js' type="text/javascript"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
   
 
 
 
+
   
-  <link rel="stylesheet" href="/css/table.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="/css/table.css" media="screen" type="text/css">
   
-  <link rel="stylesheet" href="/css/about.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="/css/about.css" media="screen" type="text/css">
   
 
+
+<!--- Load js file that corresponds to the correct csv file --->
+
+   
+      <script src='/js/CFWMemberListFall2015.js' type="text/javascript"></script>
+  
+
+
+
+  
+    <script async src='/js/memberlist.js' type="text/javascript"></script>
+  
+    <script async src='/js/membersearch.js' type="text/javascript"></script>
+  
+
+
+
+   <!-- h/t to http://wolfslittlestore.be/2013/10/jekyll-includes-tip-contains/ -->
+    <script src='/js/membersearch.js' type="text/javascript"></script>
+    <script type="text/javascript">LoadScript();</script>
+  
+    
 
 
   <body>
@@ -105,8 +121,8 @@
     <h2 id="committee-members">Committee Members</h2>
 
 <div id="users">
-  <input class="search" placeholder="Search" />
-  <button class="sort" data-sort="department">
+  <input class="search" placeholder="Search" onfocus="LoadScript();" />
+  <button type="button" class="sort" data-sort="Department" onclick="LoadScript();">
     Sort by department
   </button>
 <table></table>

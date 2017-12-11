@@ -18,7 +18,13 @@
 
   <!-- Custom JavaScript files set in YAML front matter -->
 <!-- <script async type="text/javascript" src=""></script> --->
+<link rel="stylesheet" href="/css/textareasubmit.css" media="screen" type="text/css">
 
+
+
+
+
+<!--- Load js file that corresponds to the correct csv file --->
 
 
 
@@ -86,12 +92,16 @@
   </header>
 
   <article class="post-content">
-    <p>We are the Science, Technology, Engineering, and Math (STEM) Committee with the <a href="http://cfw.utk.edu/">Commission for Women</a> (CFW) at the University of Tennessee. 
-Established during the Fall semester of 2014, we planned and hosted the first-ever Women in STEM Research Symposium as our inaugural event. </p>
+    <p>Hey there. We are the Science, Technology, Engineering, and Math (STEM) Committee with the <a href="http://cfw.utk.edu/">Commission for Women</a> (CFW) at the University of Tennessee. 
+Established during the Fall semester of 2014, we planned and hosted the <a href="/symposium/2015/02/13/first-annual-women-in-stem-research-symposium.html">first-ever Women in STEM Research Symposium</a> as our inaugural event. 
+This year, in addition to hosting the 2nd annual symposium, we will be: </p>
 
-<p>This year, in addition to hosting the 2nd annual symposium, we will be establishing a new interdisciplinary mentorship program that will be open to both undergraduate and graduate students here at UT. 
-Also, we will be focusing more heavily on our fundamental initiative to collect and disseminate data and information on the status and representation of undergraduate, graduate, and faculty women in STEM fields at UT. 
-We aim to serve as a campus-wide support system that fosters an environment of interdisciplinary engagement while providing networking and professional development opportunities. </p>
+<ul>
+  <li>establishing a new interdisciplinary mentorship program that will be open to both undergraduate and graduate students here at UT. </li>
+  <li>focusing more heavily on our fundamental initiative to collect and disseminate data and information on the status and representation of undergraduate, graduate, and faculty women in STEM fields at UT. </li>
+</ul>
+
+<p>We aim to serve as a campus-wide support system that fosters an environment of interdisciplinary engagement while providing networking and professional development opportunities. </p>
 
 <p>Our committee, which consists of both men, women, and allies at the undergraduate and graduate student levels, is a group of motivated individuals dedicated to promoting diversity and equity on campus and within the academic and professional research communities. 
 If you have a passion for equity, diversity, or promoting awareness on women’s issues, we want to work with you! </p>
@@ -101,7 +111,24 @@ If you have a passion for equity, diversity, or promoting awareness on women’s
 <p>Our website is currently under construction … thank you for visiting!</p>
 
   </article>
-
+        
+       <form style="border:0px solid #ccc; border-top-width: 1px; padding:10px;text-align:center;"
+            action="https://tinyletter.com/cfwstem" method="post" 
+            target="popupwindow" 
+            onsubmit="window.open('https://tinyletter.com/cfwstem', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <div class="ss-form-question errorbox-good" role="listitem">
+             <div dir="auto" class="ss-item ss-item-required ss-text">
+              <div class="ss-form-entry">
+                 <h4>Interested in learning more about events and issues concerning Women in STEM at the University of Tennessee?</h4>
+                 <p>Provide your email below for a curated newsletter sent to your inbox. You'll enjoy it. Really.</p>
+                 <p><input type="text" name="email" id="tlemail" placeholder="Your email address" 
+                 aria-required = "true" style = "margin-bottom:0px" required="" title="Must be a valid email address"/></p>
+                 <input type="hidden" value="1" name="embed"/>
+              </div>
+             </div>
+            </div>
+         <button type="submit" name="submit" class="sort">Subscribe</button>
+       </form>
 </div>
 
       </div>
